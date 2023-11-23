@@ -1,0 +1,17 @@
+.Wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+/* Naming Convention
+Wrapper/Container => PascalCase => 
+Button{} primary success error cancel (modifying classes) => camelCase
+Element => standalone root element => camelCase
+*/
